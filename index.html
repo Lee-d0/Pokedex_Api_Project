@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./java.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="./search.js" defer></script>
+</head>
+<body>
+    <main class="main">
+    <header class="header home">
+        <div class="container">
+            <div class="logo__wrapper">
+                <img src="./assets/pokeball.svg" alt="pkoeball">
+                <h1>Pokedex</h1>
+
+            </div>
+            <div class="search__wrapper">
+                <div class="search__wrap">
+                    <img src="./assets/search.svg" alt="search icon" class="search__icon">
+
+                    <input type="text" class="search__input body3__fonts" placeholder="Search" id="search-input">
+
+                    <img src="./assets/cross.svg" alt="cross icon" class="search-close-icon" id="search-close-icon">
+                </div>
+                <div class="sort__wrapper">
+                    <div class="sort-wrap">
+                        <img src="./assets/sorting.svg" alt="sorting" class="sort-icon" id="sort-icon">
+                    </div>
+                    <div class="filter__wrapper">
+                        <p class="body2__fonts">Sort By:</p>
+                        <div class="filter-wrap">
+                            <div>
+                                <input type="radio" id="number" name="filters" value="number"
+                                checked>
+
+                                <label for="number" class="body3__fonts">Number</label>
+                                <div>
+                                    <input type="radio" id="name" name="filters" value="name">
+                                    <label for="name" class="body3__fonts">Name</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            </header>
+        <section class="pokemon__list">
+            <div class="container">
+                <div class="list__wrapper"></div>   
+            </div>
+            <div id="not-found-message">Pokemon not found</div>
+        </section>
+    </main>
+</body>
+</html>
