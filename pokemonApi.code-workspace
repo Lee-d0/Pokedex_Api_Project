@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "pokemon",
+			"path": "../OneDrive/Desktop/pokemon"
+		},
+		{
+			"name": "Pokemon Api",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Pokemon Api"
+	}
+}

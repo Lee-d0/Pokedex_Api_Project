@@ -48,7 +48,7 @@ function displayPokemons(pokemon){
                 <img src="https://raw.githubusercontent.com/pokeapi/sprites/master/sprites/pokemon/other/dream-world/${pokemonID}.svg" alt="${pokemon.name}" />
             </div>
             <div class="name-wrap">
-                <p class="body3__fonts">#${pokemon.name}</p>
+                <p class="body3__fonts">${pokemon.name}</p>
             </div>
         `
 
